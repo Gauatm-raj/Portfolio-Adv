@@ -1,4 +1,4 @@
-import hotel1 from "../assets/Hotel1.png"
+
 export const Bio = {
   name: "Gautam Raj",
   roles: [
@@ -58,6 +58,10 @@ export const skills = [
     title: "Backend",
     skills: [
       {
+        name:"Java",
+        image:"https://logos-world.net/wp-content/uploads/2022/07/Java-Logo.jpg"
+      },
+      {
         name:"SpringBoot",
         image:"https://www.vectorlogo.zone/logos/springio/springio-ar21.svg"
       },
@@ -112,14 +116,10 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          "https://cdn.cookielaw.org/logos/70564414-548a-4286-8ad7-04d95b172a08/e26443c0-68d1-47c8-b8fc-9bc765da2e95/3a159462-db70-43cf-a27d-f602a6baed44/pm-logo-horiz.png",
       },
     
-      {
-        name: "Figma",
-        image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
-      },
+    
     ],
   },
 ];
@@ -137,8 +137,21 @@ export const projects = [
             {desc:"User Interaction: Enabled users to view available rooms, make reservations with specific check-in and check-out dates, and receive aunique confirmation ID upon successful booking."},
             {desc:"Booking Status Tracking: Implemented a system for users to track the status of their reservations using the provided confirmation ID"}
     ],
-    image:
-    "",
+    image:[
+    "https://portfolio-basic-xi.vercel.app/assets/h1-DVy4Flsu.png",
+    "https://portfolio-basic-xi.vercel.app/assets/h3-ubLWoIS3.png",
+    "https://portfolio-basic-xi.vercel.app/assets/h4-ncPm2nG1.png",
+    "https://portfolio-basic-xi.vercel.app/assets/h5-C1H_3ic0.png",
+    "https://portfolio-basic-xi.vercel.app/assets/h6-C60mUCJd.png",
+    "https://portfolio-basic-xi.vercel.app/assets/h7-DbapIalc.png",
+    "https://portfolio-basic-xi.vercel.app/assets/h8-DhRlmE7c.png",
+    "https://portfolio-basic-xi.vercel.app/assets/h9-zn2A-pow.png",
+    "https://portfolio-basic-xi.vercel.app/assets/h10-D9VxQuQ7.png",
+    "https://portfolio-basic-xi.vercel.app/assets/h11-Bc0u59ZC.png",
+    "https://portfolio-basic-xi.vercel.app/assets/h12-C6t4v55x.png",
+    "https://portfolio-basic-xi.vercel.app/assets/h13-CnWSdihf.png",
+    "https://portfolio-basic-xi.vercel.app/assets/h15-Dm5_xZ9S.png"
+    ],
     tags: [
       
       "JAVA",
@@ -166,7 +179,15 @@ export const projects = [
             {desc:"Also use ROLE Based Authentication for Login and perforn API calls."}
     ],
     image:
-      "",
+      [
+        "https://portfolio-basic-xi.vercel.app/assets/S0-t1ppSyi1.png",
+        "https://portfolio-basic-xi.vercel.app/assets/S1-ql-3TUbg.png",
+        "https://portfolio-basic-xi.vercel.app/assets/S3-DIf9Rehw.png",
+        "https://portfolio-basic-xi.vercel.app/assets/S4-CUFrQrWq.png",
+        "https://portfolio-basic-xi.vercel.app/assets/S5-C6KqpVCy.png",
+        "https://portfolio-basic-xi.vercel.app/assets/S6-Ckuyz-3W.png",
+        "https://portfolio-basic-xi.vercel.app/assets/S7-CA-I4xcn.png"
+      ],
     tags: ["Java", "HTML", "CSS", "SQL", "SpringBoot", "Hibernate", "JPA", "Tomcat", "Maven", "Thymleaf"],
     category: "web app",
     github: "https://github.com/Gauatm-raj/SmartContactManager",
@@ -183,7 +204,13 @@ export const projects = [
             {desc:" Utilized the Fetch API for asynchronous data fetching and JSON server to simulate backend endpoints. Ensured responsive design and interactive user interface."}
        
     ]
-      ,image:"", 
+      ,image:
+      [
+        "https://portfolio-basic-xi.vercel.app/assets/Y1-DwJSWUjR.png",
+        "https://portfolio-basic-xi.vercel.app/assets/Y2-C9oMjcgH.png",
+        "https://portfolio-basic-xi.vercel.app/assets/Y3-BPzkWQC1.png",
+        "https://portfolio-basic-xi.vercel.app/assets/Y4-BnnGGW88.png"
+      ],
    tags: ["HTML", "CSS", "JAVASCRIPT", "Fetch API", "JSON Server", "Visual Studio Code", "Git", "GitHub"],
     category: "android app",
     github: "https://github.com/Gauatm-raj/Youtube-Clone",
@@ -199,7 +226,11 @@ export const projects = [
       {desc:"Additionally, functionalities including Cut, Copy, and Paste are available, along with the ability to align text to the right, left, and center"}
         
     ]
-      ,image:"", 
+      ,image:
+      [
+        "https://portfolio-basic-xi.vercel.app/assets/G1-C9Pkmn4Z.png",
+        "https://portfolio-basic-xi.vercel.app/assets/G2-B5-oDhPK.png"
+      ], 
    tags: ["HTML", "CSS", "JAVASCRIPT", "Git", "GitHub"],
     category: "android app",
     github: "https://github.com/Gauatm-raj/GoogleSheet",
@@ -210,14 +241,44 @@ export const projects = [
     title: "Financely",
     date: "July 2024 - August 2024",
     description:[
-      {desc:"It is a Full stack Project using Firebase as a backend"},
+            {desc:"It is a Full stack Project using Firebase as a backend"},
             {desc:"User can SignUp through Email, Password, and also use Google authentication for Sign UP"},
             {desc:"User ADD INCOME, ADD EXPENSE and track all data with BAR GRAPH & PIE CHART"},
             {desc: "Import data from csv file and also export current data in CSV format"}
         
     ]
-      ,image:"", 
+      ,image:
+      [
+        "https://portfolio-basic-xi.vercel.app/assets/F1-D9T8dDN7.png",
+        "https://portfolio-basic-xi.vercel.app/assets/F2-7eByvmrt.png",
+        "https://portfolio-basic-xi.vercel.app/assets/F3-k4S6WXuB.png",
+        "https://portfolio-basic-xi.vercel.app/assets/F4-BN007w6w.png",
+        "https://portfolio-basic-xi.vercel.app/assets/F5-CZisKo_M.png",
+        "https://portfolio-basic-xi.vercel.app/assets/F6-Ba7JrGrk.png"
+      ], 
    tags: ["HTML", "CSS", 'JAVASCRIPT', 'React', 'React-Toaster', 'Axios', 'Router-Dom', 'Git', "FireBase"],
+    category: "web app",
+    github: "https://github.com/Gauatm-raj/Finacely-app",
+    webapp: "https://finacely-app.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "TODO LIST",
+    date: "May 2024 - May 2024",
+    description:[
+            {desc:"Simple Todo list web app"},
+            {desc:"Function Add, Save, Edit, Delete"},
+            
+        
+    ]
+      ,image:
+      [
+        "https://portfolio-basic-xi.vercel.app/assets/t1-DM8gN81t.png",
+        "https://portfolio-basic-xi.vercel.app/assets/t2-CtGeZYTD.png",
+        "https://portfolio-basic-xi.vercel.app/assets/t3-DkxYVs6M.png"
+        
+      ], 
+   tags: ["HTML", "CSS", 'JAVASCRIPT', 'React'],
     category: "web app",
     github: "https://github.com/Gauatm-raj/Finacely-app",
     webapp: "https://finacely-app.vercel.app/",
