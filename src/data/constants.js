@@ -280,8 +280,8 @@ export const projects = [
       ], 
    tags: ["HTML", "CSS", 'JAVASCRIPT', 'React'],
     category: "web app",
-    github: "https://github.com/Gauatm-raj/Finacely-app",
-    webapp: "https://finacely-app.vercel.app/",
+    github: "https://github.com/Gauatm-raj/My-Todo-App",
+    webapp: "https://my-todo-app-five-plum.vercel.app/",
   },
   
 ];
