@@ -9,7 +9,7 @@ export const Bio = {
     "As a Java Full Stack Developer, I'll master both front-end and back-end development, creating seamless web applications. This role offers freshers a chance to work with Java, HTML, CSS, and JavaScript, gaining versatile skills and experience in building robust, user-friendly software solutions in the dynamic tech industry.",
   github: "https://github.com/Gauatm-raj",
   resume:
-    "https://drive.google.com/file/d/1PX5_oYLITUmKITHyHPHnHWBpvy1yk-jU/view",
+    "https://drive.google.com/file/d/1ZaXRkQArXFHx-vJg7xjHhzVIbNC-7o-f/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/gautam-raj-375b892a5/",
   insta: "https://www.instagram.com/jannat_r.a.j/",
 };
